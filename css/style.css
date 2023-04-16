@@ -58,7 +58,6 @@ main {
   border: 1px transparent black;
   border-radius: 20px;
   width: 90vw;
-  height: 89vh;
   margin: 5em auto 0 auto;
   display: grid;
   grid-template-columns: 45% 45%;
@@ -74,7 +73,11 @@ div img {
 }
 
 .first-img {
-  margin-top: 9%;
+  margin-top: 6%;
+}
+
+.last-img {
+    margin-bottom: 6%;
 }
 
 .text-columns {
@@ -83,9 +86,8 @@ div img {
 .text-columns-text1 {
   margin-top: 12%;
   margin-left: 15%;
-  margin-right: 10%;
   width: 43.45vw;
-  height: 18vh;
+
 
   color: black;
   background-color: #ffbe5b;
@@ -93,7 +95,7 @@ div img {
 
 .text-columns-text1 p {
   padding: 4%;
-  font-size: 2em;
+  font-size: 2vw;
   width: 20em;
   font-weight: bold;
 }
@@ -101,7 +103,6 @@ div img {
 .text-columns-text2 {
   margin-top: 10%;
   margin-left: 15%;
-  margin-right: 10%;
   width: 43.45vw;
 
   color: black;
@@ -110,7 +111,7 @@ div img {
 
 .text-columns-text2 p {
   padding: 4%;
-  font-size: 2em;
+  font-size: 2vw;
   width: 20em;
   line-height: 0.9;
   font-weight: bold;
@@ -119,7 +120,6 @@ div img {
 .text-columns-text3 {
   margin-top: 10%;
   margin-left: 15%;
-  margin-right: 10%;
   width: 43.5vw;
 
   color: black;
@@ -128,10 +128,12 @@ div img {
 
 .text-columns-text3 p {
   padding: 4%;
-  font-size: 2em;
+  font-size: 2vw;
   width: 20em;
+  max-width: 21em;
   line-height: 0.9;
   font-weight: bold;
+  
 }
 
 .carousel-container {
