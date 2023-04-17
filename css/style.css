@@ -22,6 +22,7 @@ body {
 .nav-logo img {
   width: 25vw;
   min-width: 10em;
+  max-width: 20em;
   margin: 50% auto 50% auto;
 }
 
@@ -90,7 +91,7 @@ div img {
 
 
   color: black;
-  background-color: #ffbe5b;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .text-columns-text1 p {
@@ -100,13 +101,18 @@ div img {
   font-weight: bold;
 }
 
+.text-columns-text1:hover {
+    background-color: #ffbd59;
+  }
+
 .text-columns-text2 {
   margin-top: 10%;
   margin-left: 15%;
   width: 43.45vw;
 
   color: black;
-  background-color: #ffbe5b;
+  background-color: rgba(255, 255, 255, 0.2);
+  
 }
 
 .text-columns-text2 p {
@@ -117,13 +123,18 @@ div img {
   font-weight: bold;
 }
 
+.text-columns-text2:hover {
+    background-color: #ffbd59;
+  }
+
 .text-columns-text3 {
   margin-top: 10%;
   margin-left: 15%;
   width: 43.5vw;
 
   color: black;
-  background-color: #ffbe5b;
+  background-color: rgba(255, 255, 255, 0.2);
+
 }
 
 .text-columns-text3 p {
@@ -135,6 +146,10 @@ div img {
   font-weight: bold;
   
 }
+
+.text-columns-text3:hover {
+    background-color: #ffbd59;
+  }
 
 .phanton-style {
     color: #ffbe5b;
