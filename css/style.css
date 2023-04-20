@@ -5,6 +5,7 @@
 
 body {
   background-color: #ffbd59;
+  width: 100%;
 }
 
 .nav-bar {
@@ -41,14 +42,14 @@ a:hover {
 
 main {
   background-color: rgb(255, 255, 255);
-  background-size: cover;
   width: 99vw;
   height: 180vh;
 }
 
 .all-life-cards {
-  margin-top: -5%;
+  margin-top: -6%;
   padding: 1;
+  padding-bottom: 2%;
 
   background-color: #ffbd59;
 }
@@ -96,7 +97,6 @@ div img {
 .text-columns-text1 p {
   padding: 4%;
   font-size: 2vw;
-  width: 20em;
   font-weight: bold;
 }
 
@@ -112,7 +112,6 @@ div img {
 .text-columns-text2 p {
   padding: 4%;
   font-size: 2vw;
-  width: 20em;
   line-height: 0.9;
   font-weight: bold;
 }
@@ -129,17 +128,12 @@ div img {
 .text-columns-text3 p {
   padding: 4%;
   font-size: 2vw;
-  width: 20em;
   max-width: 21em;
   line-height: 0.9;
   font-weight: bold;
   
 }
 
-.phanton-style {
-    color: #ffbe5b;
-
-}
 
 
 
@@ -154,7 +148,7 @@ div img {
 }
 
 .img-ad-container img {
-    width: 99vw;
+    width: 90vw;
 }
 
 .contact-container {
@@ -164,39 +158,49 @@ div img {
 
 .slider-container {
     background-color: #ffd900;
-    width: 99vw;
-    height: 55.9vh;
+    width: 96.8vw;
     margin: 0.5em auto 0 auto;
+    padding: 1em ;
 
   }
 
   .slider-border {
     margin: 0.5em auto;
     background-color: red;
-    width: 95vw;
-    height: 54vh;
+    width: 92%;
+    height: 44em;
     overflow: hidden;
-
+    border-radius: 1.5em;
+    padding-bottom: 0.5em;
   }
 
-.first-slide {
-}
+
+
+
 
 .slides {
-    width: 99vw;
-    height: 15vh;
+    width: 98%;
+    height: 25em;
     display: flex;
+    gap: 12vw;
+    
 }
 
 .slides input {
     display: none;
+    width: 80%;
+}
+
+.slide img {
+  width: 100vw;
 }
 
 
 .slide {
     margin: 0 auto;
-    width: 99vw;
+    width: 100%;
     position: relative;
+    transition: 3s;
 }
 
 .manual-navigation {
@@ -209,8 +213,10 @@ div img {
 }
 
 .manual-btn {
+  margin-top: 15%;
     border: 3px solid green;
     padding: 5px;
+    padding-top: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
@@ -229,6 +235,37 @@ div img {
     margin-left: 0;
 }
 
-#radio1:checked ~ .first {
-    margin-left: -25%;
-}
+#radio2:checked ~ .first {
+    margin-left: -120%;
+  }
+  
+  #radio3:checked ~ .first {
+    margin-left: -239%;
+  }
+  
+  #radio4:checked ~ .first {
+    margin-left: -358%;
+  }
+
+  .navigation-auto div {
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+  }
+
+
+
